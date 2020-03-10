@@ -1,0 +1,218 @@
+{
+	box-sizing: border-box;
+}
+
+header {
+	padding: 20px 10px;
+	background-color: black;
+}
+
+header ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.header-button{
+	padding:8px;
+	color: black;
+	background-color: lightGrey;
+	border: 5px solid #A83850;
+	text-decoration: none;
+}
+
+body{
+	margin:0;
+	padding: 0;
+}
+
+.home {
+	background-image: url("img/TS-Home.png");
+	padding: 300px 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+
+.home h1{
+	font-size: 150px;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.home p{
+	font-size: 16px;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.singles-albums{
+	background-image: url("img/Rectangle.png");
+	padding: 300px 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 100px;
+	color: white;
+	text-align: center;
+}
+
+.singles-albums h1{
+	width: 100%;
+	font-size: 72px;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.singles-albums p{
+	font-size: 20px;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.music {
+	background-color: rgba(0 , 0, 0, .5);
+	width: 29%;
+	margin-bottom: 25px;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+.tours{
+	background-image: url("img/TS-Tours.png");
+	padding: 300px 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 100px;
+	color: white;
+	text-align: center;
+}
+
+.tours h1{
+	width: 100%;
+	font-size: 72px;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.tours p{
+	font-size: 18px;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.location{
+	background-color: rgba(168 , 56, 80, .55);
+	width: center ;
+	margin: 25px auto 0 auto;
+	color: white;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 20px;
+	align-items: center;
+	width: 80%;
+}
+
+.sign-up{
+	background-image: url("img/TS-Sign Up.png");
+	padding: 300px 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	text-align: center;
+	position: relative;
+}
+
+.sign-up h1{
+	font-size: 72px;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.information{
+	background-color: rgba(173 , 123, 101, .60);
+	width: 60%;
+	margin: 25px auto;
+	color: white;
+	text-align: left;
+	padding: 25px;
+}
+
+.button{
+	padding:8px;
+	color: black;
+	background-color: #F9D964;
+	border: 5px solid white;
+	text-decoration: none;
+}
+.form-group {
+	margin-bottom: 25px;
+}
+
+.form-group label {
+	display: block;
+}
+.form-group input[type=text] {
+	width: 100%;
+	padding: 20px 0;
+}
+.form-button {
+	text-align: center;
+}
+
+form{
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.social {
+	background-color: rgba(173 , 123, 101, .60);
+	width: cover;
+	color: white;
+	padding: 25px;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+}
+
+.social .Media {
+	margin: 0 20px;
+}
+
+.Media img{
+	width: 50px;
+	height:50px;
+}
+
+input.button{
+	width: 100px;
+	height: 50px;
+	font-size: 18px;
+}
+
+a:hover {
+  color: red;
+}
+
+.home h1 {
+  color: white;
+  animation-name: colorchange;
+  animation-duration: 2s;
+}
+
+@keyframes colorchange {
+  0%   {color: white;}
+  25%  {color: black;}
+  50%  {color: white;}
+  100% {color: black;}
+}
+</style>
+</head>
+<body>
+
+
